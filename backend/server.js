@@ -22,4 +22,5 @@ app.get('/mqtt/datas', (req,res) => {
 
 app.listen(port, () => {
     console.log(`serve at http://localhost:${port}`)
+    console.log('canlıda da calisiyo olabilir ona dikkat et ')
 });
